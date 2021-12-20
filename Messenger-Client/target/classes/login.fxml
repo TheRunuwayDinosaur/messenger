@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="messengerClient.controllers.Login">
+   <children>
+      <TextField fx:id="loginTextField" layoutX="219.0" layoutY="128.0" promptText="login" />
+      <PasswordField fx:id="passwordTextField" layoutX="219.0" layoutY="172.0" promptText="password" />
+      <Button fx:id="loginButton" layoutX="231.0" layoutY="211.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="28.0" prefWidth="138.0" text="Login" />
+      <Button fx:id="registrationButton" layoutX="232.0" layoutY="274.0" mnemonicParsing="false" onAction="#onRegistrationClick" prefHeight="28.0" prefWidth="138.0" text="Registrate" />
+      <Button fx:id="createChat" layoutX="510.0" layoutY="35.0" mnemonicParsing="false" onAction="#onCreateChat" text="Create Chat" />
+      <Button fx:id="addUserToChat" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#onAddUserToChat" text="Add to user to chat" />
+      <Button layoutX="14.0" layoutY="67.0" mnemonicParsing="false" text="Add avatar to user" />
+      <Button layoutX="502.0" layoutY="302.0" mnemonicParsing="false" text="Show chats" />
+      <Button layoutX="494.0" layoutY="344.0" mnemonicParsing="false" text="Show all users" />
+      <Button layoutX="478.0" layoutY="261.0" mnemonicParsing="false" text="Show user avatar" />
+   </children>
+</AnchorPane>
